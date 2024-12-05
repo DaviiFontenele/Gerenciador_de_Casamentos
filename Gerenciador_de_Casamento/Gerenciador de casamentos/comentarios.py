@@ -28,6 +28,8 @@
 
 # organizar o front o notion
 
+#iniciar o servidor: python manage.py runserver
+
 '''
 {% extends "base.html" %}
 
