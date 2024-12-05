@@ -7,9 +7,22 @@ a solução foi:
 
 ajustar o novo caminho:
 cd "C:\Users\Dr Andre\Documents\MeusProjetos\Gerenciador_de_Casamentos\Gerenciador_de_Casamento"
+cd "C:\Users\Dr Andre\Documents\MeusProjetos\Gerenciador_de_Casamentos\Gerenciador_de_Casamento\Gerenciador de casamentos"
 
 e apos rodar o comando:
 
 python manage.py runserver
+
+"""
+
+"""
+2) erro 02
+
+nao foi instalada a biblioteca Pillow
+
+para isso:
+
+python -m pip install Pillow
+
 
 """
