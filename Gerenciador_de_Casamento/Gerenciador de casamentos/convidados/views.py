@@ -57,7 +57,6 @@ def adicionar_acompanhante(request):
 
     return render(request, "convidado.html", {"convidado": convidado})
 
-# chat gpt - nome dos convidados no terminal
 
 
     

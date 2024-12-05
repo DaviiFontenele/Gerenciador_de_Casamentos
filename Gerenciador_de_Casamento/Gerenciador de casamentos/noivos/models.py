@@ -43,7 +43,6 @@ class Presentes(models.Model):
         return self.nome_presente
 
 
-#modelo chatgpt
 class Acompanhante(models.Model):
     convidado = models.ForeignKey(Convidados, related_name="acompanhantes", on_delete=models.CASCADE)
     nome = models.CharField(max_length=100)
